@@ -54,3 +54,4 @@ action:
   - delay: !input no_motion_wait
   - service: light.turn_off
     target: !input light_target
+    target: !input fan_target
