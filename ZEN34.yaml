@@ -15,91 +15,91 @@ blueprint:
 
     KeyReleased_Up:
       name: Up Released
-      description: "Action to run, when the button is released."
+      description: "Action to run when the button is released."
       default: []
       selector:
         action: {}
     KeyReleased_Down:
       name: Down Released
-      description: "Action to run, when the button is released."
+      description: "Action to run when the button is released."
       default: []
       selector:
         action: {}
 
     KeyHeld_Up:
       name: Up Held
-      description: "Action to run, when the button is held."
+      description: "Action to run when the button is held."
       default: []
       selector:
         action: {}
     KeyHeld_Down:
       name: Down Held
-      description: "Action to run, when the button is held."
+      description: "Action to run when the button is held."
       default: []
       selector:
         action: {}
 
     KeyPressed_Up:
       name: Up press 1x
-      description: "Action to run, when the button is pressed one time."
+      description: "Action to run when the button is pressed one time."
       default: []
       selector:
         action: {}
     KeyPressed_Down:
       name: Down press 1x
-      description: "Action to run, when the button is pressed one time."
+      description: "Action to run when the button is pressed one time."
       default: []
       selector:
         action: {}
 
     KeyPressed2x_Up:
       name: Up press 2x
-      description: "Action to run, when the button is pressed two time."
+      description: "Action to run when the button is pressed two time."
       default: []
       selector:
         action: {}
     KeyPressed2x_Down:
       name: Down press 2x
-      description: "Action to run, when the button is pressed two time."
+      description: "Action to run when the button is pressed two time."
       default: []
       selector:
         action: {}
 
     KeyPressed3x_Up:
       name: Up press 3x
-      description: "Action to run, when the button is pressed three time."
+      description: "Action to run when the button is pressed three time."
       default: []
       selector:
         action: {}
     KeyPressed3x_Down:
       name: Down press 3x
-      description: "Action to run, when the button is pressed three time."
+      description: "Action to run when the button is pressed three time."
       default: []
       selector:
         action: {}
 
     KeyPressed4x_Up:
       name: Up press 4x
-      description: "Action to run, when the button is pressed four time."
+      description: "Action to run when the button is pressed four time."
       default: []
       selector:
         action: {}
     KeyPressed4x_Down:
       name: Down press 4x
-      description: "Action to run, when the button is pressed four time."
+      description: "Action to run when the button is pressed four time."
       default: []
       selector:
         action: {}
 
     KeyPressed5x_Up:
       name: Up press 5x
-      description: "Action to run, when the button is pressed five time."
+      description: "Action to run when the button is pressed five time."
       default: []
       selector:
         action: {}
     KeyPressed5x_Down:
       name: Down press 5x
-      description: "Action to run, when the button is pressed five time."
+      description: "Action to run when the button is pressed five time."
       default: []
       selector:
         action: {}
