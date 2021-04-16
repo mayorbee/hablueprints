@@ -110,7 +110,7 @@ variables:
   device_id: !input zwave_device
 trigger:
   - platform: event
-    event_type: zwave_js_event
+    event_type: zwave_js_value_notification
 condition: "{{ trigger.event.data.device_id == device_id }}"
 action:
   - variables:
