@@ -1,5 +1,5 @@
 blueprint:
-  name: Scene controller button
+  name: Hank HKZW-SCN01 One-key Scene Controller
   description: Create automations for any button using z-wave js integration.
   domain: automation
   input:
