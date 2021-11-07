@@ -10,7 +10,7 @@ blueprint:
         device:
           integration: zwave_js
           manufacturer: HANK Electronics Ltd.
-          model: SCN01
+          model: HKZW-SCN01
     button_press:
       name: Press Button One
       description: Action to run on button press.
