@@ -1,0 +1,45 @@
+blueprint:
+  name: Scene controller button
+  description: Create automations for any button using z-wave js integration.
+  domain: automation
+  input:
+    hank_scene_controller:
+      name: One-key Scene Controller
+      description: The remote to interact with.
+      selector:
+        device:
+          integration: zwave_js
+          manufacturer: HANK Electronics Ltd.
+          model: SCN01
+    button_press:
+      name: Press Button One
+      description: Action to run on button press.
+      default: []
+      selector:
+        action: {}
+    button_hold:
+      name: Hold Button One
+      description: Action to run on button hold.
+      default: []
+      selector:
+        action: {}        
+
+mode: single
+
+max_exceeded: silent
+
+trigger:
+  platform: event
+  event_type: zwave_js_value_notification
+  event_data:
+    command_class_name: Central Scene
+    device_id: !input hank_scene_controller
+
+action:
+  - variables:
+      button_value: "{{ trigger.event.data.value }}"
+  - choose:
+      - conditions: "{{ button_value == 'KeyPressed' }}"
+        sequence: !input button_press
+      - conditions: "{{ button_value == 'KeyHeldDown' }}"
+        sequence: !input button_hold  
