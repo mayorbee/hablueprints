@@ -84,7 +84,7 @@ blueprint:
       default: []
       selector:
         action: {}
-  source_url: https://community.home-assistant.io/t/z-wave
+  source_url: https://github.com/mayorbee/hablueprints/blob/1b1b990a47cfd0b4a720ae7945e594a0a94163e9/ZEN77.yaml
 mode: single
 max_exceeded: silent
 variables:
